@@ -20,13 +20,15 @@
         <button type="button">Order Now</button>
     </header>
     <main>
-        <selection>
+    <!--section1-->
+        <section>
             <h1>Enjoy Your Favorite Food From Anywhere</h1>
             <p>With just a few clicks, you can have your favorite meals delivered straight to your doorstep, no matter where you are. Order now and enjoy a hassle-free and delicious meal from the comfort of your own home.</p>
             <button type="button">Order Now</button>
             <img src="./images/Hero.png" alt="Salad" width="528" height="528">
-        </selection>
-        <selection>
+        </section>
+        <!--Section2-->
+        <section>
             <h2>What's Special About Our Offerings</h2>
             <p>With our platform, you can browse through a diverse selection of cuisines and local restaurants, and choose from a variety of dishes that cater to your specific taste buds.</p>
             <ul>
@@ -41,7 +43,8 @@
             </ul>
             <button type="button">Order Now</button>
             <img src="./images/Aple.png" alt="Green apple" width="396" height="502">
-        </selection>
+        </section>
+        <!--Section3-->
         <section>
             <h2>Some of Our Favorites</h2>
             <p>Looking for something delicious?</p>
@@ -60,9 +63,95 @@
                      alt="Borshch" width="395" height="397"></a></li>
             </ul>
         </section>
-        
+        <!--Section4-->
+        <section>
+            <h2>What our Customers Say</h2>
+            <p>Don't just take our word for it - see what our satisfied customers have to say</p>
+            <ul>
+                <li>
+                    <div class="rating_block">
+                        <input name="rating" value="5" id="rating_5" type="radio" />
+                        <label for="rating_5" class="label_rating"></label>
+                       
+                        <input name="rating" value="4" id="rating_4" type="radio" />
+                        <label for="rating_4" class="label_rating"></label>
+                       
+                        <input name="rating" value="3" id="rating_3" type="radio" />
+                        <label for="rating_3" class="label_rating"></label>
+                       
+                        <input name="rating" value="2" id="rating_2" type="radio" />
+                        <label for="rating_2" class="label_rating"></label>
+                       
+                        <input name="rating" value="1" id="rating_1" type="radio" />
+                        <label for="rating_1" class="label_rating"></label>
+                      </div>
+                    <p>"The Best app I have used to order food in a while, so many options to choose from too, I would recommend to a freind, No questions asked"</p>
+                        <h3>Sumith Shah</h3>
+                        <p>Some Dude</p>
+                        <img src="./images/Ellipse 9.png" alt="Men" width="48">
+                </li>
+                <li>
+                    <div class="rating_block">
+                        <input name="rating" value="5" id="rating_5" type="radio" />
+                        <label for="rating_5" class="label_rating"></label>
+                       
+                        <input name="rating" value="4" id="rating_4" type="radio" />
+                        <label for="rating_4" class="label_rating"></label>
+                       
+                        <input name="rating" value="3" id="rating_3" type="radio" />
+                        <label for="rating_3" class="label_rating"></label>
+                       
+                        <input name="rating" value="2" id="rating_2" type="radio" />
+                        <label for="rating_2" class="label_rating"></label>
+                       
+                        <input name="rating" value="1" id="rating_1" type="radio" />
+                        <label for="rating_1" class="label_rating"></label>
+                      </div>
+                    <p>"The ease with which I can just go in and order what i want was amazing, It has been a very pleasant experience ordering from this app"</p>
+                        <h3>Sumith Shah</h3>
+                        <p>Some Dude</p>
+                        <img src="./images/Ellipse 10.png" alt="Woman" width="48">  
+                </li>
+            </ul>
+        </section>
+        <!--Section5-->
+        <section>
+            <h2>Subscribe To Get Special Offers</h2>
+            <p>Order now and receive 10% off your first meal with Enjoy Your Favorite Food From Anywhere. </p>
+            <form onsubmit="alert('submit!');return false">
+                <input type="text" size="42" value="Enter your email">
+                <input type="submit" value="Subscribe" onclick="alert('click')">
+            </form>
+            <img src="./images/banan.png" alt="banan" width="608">
+        </section>
     </main>
-
-    
+    <footer>
+        <a href=""><img src="./images/Vector.svg" alt="logo" width="66" height="52"></a>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Service</a></li>
+                <li><a href="">Menu</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+        <ul>
+            <li>
+                <p>Subscribe</p>
+                <form onsubmit="alert('submit!');return false">
+                    <input type="text" size="42" value="Enter your email">
+                    <input type="submit" value="Subscribe" onclick="alert('click')">
+                </form>
+                <p>By subscribing you agree to with our <a href="">Privacy Policy</a></p>
+            </li>
+        </ul>
+            <p>2022 FoodSta. All right reserved.</p>
+            <ul>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Terms of Service</a></li>
+                <li><a href="">Cookies Settings</a></li>
+            </ul>
+    </footer>
 </body>
 </html>

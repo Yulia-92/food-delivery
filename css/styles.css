@@ -11,8 +11,50 @@ ul {
     list-style-type: none;
 }
 /* ____________HEADER____________ */
+.header {
+}
+.header-nav {
+}
+.header-menu {
+}
+.header-list {
+    font-weight: 400;
+    font-size: 14px;
+    color: #2C2C2C;
+}
+.list-second {
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #BBF330;
+}
+.btn-content {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 150%;
+    text-align: right;
+    color: var(--black);
+    width: 98px;
+    height: 32px;
+    background: #BBF330;
+}
 
 /* ____________SECTION1__________ */
+.section-one {
+}
+.section-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    color: #2C2C2C;
+}
+.section-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #2C2C2C;
+}
 
 /* ____________SECTION2__________ */
 
